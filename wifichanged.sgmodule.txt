@@ -1,0 +1,7 @@
+#!name=WifiChange
+#!desc=change wifi policy
+#!system=ios
+
+[Script]
+Wifichange = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/JoyZhang233/Surge/main/wifi-changed.js
+
